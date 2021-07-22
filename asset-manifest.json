@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/OwlabTestTask/static/css/main.6ca36213.chunk.css",
+    "main.js": "/OwlabTestTask/static/js/main.faf62bad.chunk.js",
+    "main.js.map": "/OwlabTestTask/static/js/main.faf62bad.chunk.js.map",
+    "runtime-main.js": "/OwlabTestTask/static/js/runtime-main.3bf7db02.js",
+    "runtime-main.js.map": "/OwlabTestTask/static/js/runtime-main.3bf7db02.js.map",
+    "static/js/2.3a1dc2eb.chunk.js": "/OwlabTestTask/static/js/2.3a1dc2eb.chunk.js",
+    "static/js/2.3a1dc2eb.chunk.js.map": "/OwlabTestTask/static/js/2.3a1dc2eb.chunk.js.map",
+    "static/js/3.831197df.chunk.js": "/OwlabTestTask/static/js/3.831197df.chunk.js",
+    "static/js/3.831197df.chunk.js.map": "/OwlabTestTask/static/js/3.831197df.chunk.js.map",
+    "index.html": "/OwlabTestTask/index.html",
+    "static/css/main.6ca36213.chunk.css.map": "/OwlabTestTask/static/css/main.6ca36213.chunk.css.map",
+    "static/js/2.3a1dc2eb.chunk.js.LICENSE.txt": "/OwlabTestTask/static/js/2.3a1dc2eb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3bf7db02.js",
+    "static/js/2.3a1dc2eb.chunk.js",
+    "static/css/main.6ca36213.chunk.css",
+    "static/js/main.faf62bad.chunk.js"
+  ]
+}
