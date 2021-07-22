@@ -1,0 +1,22 @@
+@import "../../styles/sass/variables";
+@import "../../styles/sass/mixins";
+
+.btn {
+    position: relative;
+    padding: 9px 40px 14px;
+    font-style: italic;
+    background-color: $primaryColor;
+    text-decoration: none;
+    border: none;
+    @include text(15px);
+    color: #fff;
+    line-height: 20px;
+    transition: transform 250ms, opacity 400ms;
+    opacity: 0.9;
+    &:hover {
+        letter-spacing: 1.5px;
+        transform: scale(1.2);
+        opacity: 0.5;
+    }
+}
+

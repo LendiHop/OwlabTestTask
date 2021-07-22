@@ -1,0 +1,24 @@
+@import "../../../../n2-features/common/styles/sass/variables";
+
+.nav {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    & .item {
+        text-decoration: none;
+        color: $bgSecondColor;
+        font-family: $TitleFontFamily;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: .5px;
+        word-wrap: break-word;
+        &:hover {
+            color: $primaryColor;
+        }
+    }
+    & .active {
+        color: $primaryColor;
+    }
+}
+

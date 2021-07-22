@@ -1,0 +1,16 @@
+@import "../../common/styles/sass/variables";
+
+.loginPage {
+  display: flex;
+  align-items: center;
+  height: 92vh;
+  background-color: $bgSecondColor;
+
+  .container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+}

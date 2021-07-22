@@ -1,0 +1,28 @@
+@import "../common/styles/sass/variables";
+
+.news {
+  background-color: $bgColor;
+  display: flex;
+  align-items: center;
+
+  .container {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .projects {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      align-items: flex-start;
+      @media screen and (max-width: 1264px) {
+        justify-content: center;
+      }
+    }
+  }
+}

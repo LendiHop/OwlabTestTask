@@ -1,0 +1,52 @@
+@import "../../common/styles/sass/variables";
+@import "../../common/styles/sass/mixins";
+
+.newsBlock {
+  width: 500px;
+  background-color: $bgSecondColor;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  .image {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: "";
+      background-color: black;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      opacity: 0.3;
+    }
+  }
+  .info {
+    padding: 0  20px 15px 20px;
+    .title {
+      @include heading(22px);
+      font-weight: 700;
+      padding:  25px 0 10px;
+      margin: 0 0 5px 0;
+      border-bottom: 1px solid rgba(161, 158, 152, 0.34);
+    }
+    .description {
+      @include text(15px);
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

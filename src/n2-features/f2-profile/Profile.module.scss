@@ -1,0 +1,57 @@
+@import "../../n2-features/common/styles/sass/variables";
+@import "../../n2-features/common/styles/sass/mixins";
+
+.profile {
+    height: 92vh;
+    background-color: $bgColor;
+
+    .container {
+        height: 100%;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .photo {
+        width: 250px;
+        height: 250px;
+        border-radius: 100%;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info {
+        font-family: $TitleFontFamily;
+
+        .name {
+            font-size: 55px;
+            font-weight: 800;
+            text-transform: uppercase;
+            margin-bottom: 14px;
+            line-height: 1.4;
+            color: $headingColor;
+
+            & span {
+                color: $primaryColor;
+            }
+        }
+
+        .status {
+            font-size: 17px;
+            font-style: italic;
+            font-weight: 500;
+            max-width: 450px;
+            margin: 0 0 30px;
+            color: $textColor;
+        }
+    }
+}
+
+
+
+

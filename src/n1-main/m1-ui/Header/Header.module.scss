@@ -1,0 +1,14 @@
+@import "../../../n2-features/common/styles/sass/variables";
+
+.header {
+    height: 8vh;
+    background-color: $headingColor;
+    .container {
+        height: 100%;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
