@@ -10,12 +10,15 @@ On the site, in the header or footer, implement links:
 - Main (/)
 - News (/news)
 - Profile (/profile)
+
 If the user clicks on the "profile" page and he is not "authorized" - go to the page /login
+
 The login form (/login) accepts “fake” data:
-username: Admin
-password: 12345
+- username: Admin
+- password: 12345
 
 If other data is entered, the following messages are displayed:
-Wrong username or password
+- Wrong username or password
+
 If the data is correct, then redirect to the /profile page
 User authorization information is stored in localStorage, with a simple parameter true / false.
